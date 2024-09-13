@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    padding-bottom: 99px;
+    background-color: #020A18;
+
+}
+
+.header {
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+.header__link {
+color: var(--ffffff, #FFF);
+font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.top__content {
+    margin-top: 160px;
+    margin-bottom: 197px;
+}
+
+.subtitle {
+margin-bottom: 10px;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.top__buttons {
+    margin-top: 50px;
+}
