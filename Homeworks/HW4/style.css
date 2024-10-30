@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding-left: calc(50% - 587px);
+    padding-right: calc(50% - 587px);
+}
+
+body {
+    font-family: Inter;
+    background: #FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top{
+    padding-left: 373px;
+    padding-right: 373px;
+    padding-bottom: 100px;
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 84px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 460px;
+}
+
+.nav__menu{
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.header__link__home{
+    color: #F25822;    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header__link {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__content {      
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: auto;
+}
+
+.top__info {
+    width: 556px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.title {
+    margin-bottom: 20px;
+    align-self: stretch;
+    color: #000;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.text {
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.top__buttons {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+}
+
+.button {
+    font-family: Inter;
+    display: flex;
+    width: 140px;
+    padding: 16px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 56px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.button__link {
+    color: #AAA;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.logos {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 48px;
+}
+    
